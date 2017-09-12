@@ -59,15 +59,15 @@
     </tr>
 </table>
 <br>
-<form>
+<form action="">
     <label>First name</label>
-    <input type="text" name="firstName">
+    <input type="text" name="firstName" required>
     <br>
     <label>Last name</label>
-    <input type="text" name="lastName">
+    <input type="text" name="lastName" required>
     <br>
     <label>Adress</label>
-    <input type="text" adress="adress">
+    <input type="text" adress="adress"maxlength="10">
     <br>
     <label>Zip Code</label>
     <input type="text" zipcode="zipcode">
@@ -76,11 +76,14 @@
     <input type="text" city="city">
     <br>
     <label>Phone Number</label>
-    <input type="text" name="phone">
+    <input type="text" name="phone" required>
     <br>
     <label>Email</label>
     <input type="text" name="email">
     <br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
 
 </form>
 
